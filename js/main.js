@@ -16,6 +16,4 @@ console.log(tabPara, btAjouter);
 
 //Ecoute le click sur btAjouter
 
-btAjouter.addEventListener("click", function ajouter(){
-    console.log("Ajouter");
-});
+btAjouter.addEventListener("click", () => console.log("Ajouter"));
