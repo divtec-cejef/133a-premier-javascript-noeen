@@ -5,6 +5,9 @@
  * @since   2023-08-29
  */
 
-msg="Bonjour";
+"use strict";
+
+let msg="Bonjour";
 
 console.log(msg);
+
