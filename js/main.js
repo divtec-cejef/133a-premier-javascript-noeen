@@ -7,7 +7,10 @@
 
 "use strict";
 
-let msg="Bonjour";
+//récup tous les paragraphes du document
+let tabPara = document.querySelectorAll("p");
+let bttAjouter = document.querySelector("button.ajouter");
 
-console.log(msg);
+//Affiche le contenu des var dans la console
+console.log(tabPara, bttAjouter);
 
