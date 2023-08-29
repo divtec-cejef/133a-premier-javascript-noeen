@@ -9,8 +9,13 @@
 
 //récup tous les paragraphes du document
 let tabPara = document.querySelectorAll("p");
-let bttAjouter = document.querySelector("button.ajouter");
+let btAjouter = document.querySelector("button.ajouter");
 
 //Affiche le contenu des var dans la console
-console.log(tabPara, bttAjouter);
+console.log(tabPara, btAjouter);
 
+//Ecoute le click sur btAjouter
+
+btAjouter.addEventListener("click", function ajouter(){
+    console.log("Ajouter");
+});
